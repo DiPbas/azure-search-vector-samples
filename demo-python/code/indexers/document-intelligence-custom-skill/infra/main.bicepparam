@@ -6,7 +6,7 @@ param location = readEnvironmentVariable('AZURE_LOCATION', 'location')
 
 param principalId = readEnvironmentVariable('AZURE_PRINCIPAL_ID', 'principal_id')
 
-param resourceGroupName = readEnvironmentVariable('AZURE_RESOURCE_GROUP', 'rg-${environmentName}')
+param resourceGroupName = readEnvironmentVariable('AZURE_RESOURCE_GROUP', 'rg-bas-custom-skill')
 
 param searchServiceLocation = readEnvironmentVariable('AZURE_SEARCH_SERVICE_LOCATION', location)
 
